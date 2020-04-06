@@ -55,7 +55,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func constructMenu() {
       let menu = NSMenu()
 
-      menu.addItem(NSMenuItem(title: "Shorten", action:#selector(shortenURL(_:)), keyEquivalent: "j"))
+      menu.addItem(NSMenuItem(title: "Shorten", action:#selector(shortenURL(_:)), keyEquivalent: "s"))
 
       menu.addItem(NSMenuItem.separator())
       menu.addItem(NSMenuItem(title: "Quit chotu", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
