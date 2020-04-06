@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C47CC8E243A5BA000906CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47CC8D243A5BA000906CFF /* AppDelegate.swift */; };
+		5C47CC90243A5BA000906CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47CC8F243A5BA000906CFF /* ViewController.swift */; };
+		5C47CC92243A5BA300906CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C47CC91243A5BA300906CFF /* Assets.xcassets */; };
+		5C47CC95243A5BA300906CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C47CC93243A5BA300906CFF /* Main.storyboard */; };
+		5C47CC9E243A5CF100906CFF /* StatusBarButtonImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C47CC9D243A5CF100906CFF /* StatusBarButtonImage@2x.png */; };
+		5C47CCA2243A6B0100906CFF /* StatusBarButtonImage@2x dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C47CCA1243A6B0100906CFF /* StatusBarButtonImage@2x dark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C47CC8A243A5BA000906CFF /* chotu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chotu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C47CC8D243A5BA000906CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C47CC8F243A5BA000906CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C47CC91243A5BA300906CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C47CC94243A5BA300906CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C47CC96243A5BA300906CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C47CC97243A5BA300906CFF /* chotu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chotu.entitlements; sourceTree = "<group>"; };
+		5C47CC9D243A5CF100906CFF /* StatusBarButtonImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusBarButtonImage@2x.png"; path = "Assets.xcassets/StatusBarButtonImage@2x.png"; sourceTree = "<group>"; };
+		5C47CCA1243A6B0100906CFF /* StatusBarButtonImage@2x dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusBarButtonImage@2x dark.png"; path = "Assets.xcassets/StatusBarButtonImage@2x dark.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C47CC87243A5BA000906CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C47CC81243A5BA000906CFF = {
+			isa = PBXGroup;
+			children = (
+				5C47CC8C243A5BA000906CFF /* chotu */,
+				5C47CC8B243A5BA000906CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C47CC8B243A5BA000906CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C47CC8A243A5BA000906CFF /* chotu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C47CC8C243A5BA000906CFF /* chotu */ = {
+			isa = PBXGroup;
+			children = (
+				5C47CC8D243A5BA000906CFF /* AppDelegate.swift */,
+				5C47CC8F243A5BA000906CFF /* ViewController.swift */,
+				5C47CC91243A5BA300906CFF /* Assets.xcassets */,
+				5C47CC9D243A5CF100906CFF /* StatusBarButtonImage@2x.png */,
+				5C47CCA1243A6B0100906CFF /* StatusBarButtonImage@2x dark.png */,
+				5C47CC93243A5BA300906CFF /* Main.storyboard */,
+				5C47CC96243A5BA300906CFF /* Info.plist */,
+				5C47CC97243A5BA300906CFF /* chotu.entitlements */,
+			);
+			path = chotu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C47CC89243A5BA000906CFF /* chotu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C47CC9A243A5BA300906CFF /* Build configuration list for PBXNativeTarget "chotu" */;
+			buildPhases = (
+				5C47CC86243A5BA000906CFF /* Sources */,
+				5C47CC87243A5BA000906CFF /* Frameworks */,
+				5C47CC88243A5BA000906CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chotu;
+			productName = chotu;
+			productReference = 5C47CC8A243A5BA000906CFF /* chotu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C47CC82243A5BA000906CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Alok Karnik";
+				TargetAttributes = {
+					5C47CC89243A5BA000906CFF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 5C47CC85243A5BA000906CFF /* Build configuration list for PBXProject "chotu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C47CC81243A5BA000906CFF;
+			productRefGroup = 5C47CC8B243A5BA000906CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C47CC89243A5BA000906CFF /* chotu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C47CC88243A5BA000906CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C47CC92243A5BA300906CFF /* Assets.xcassets in Resources */,
+				5C47CC95243A5BA300906CFF /* Main.storyboard in Resources */,
+				5C47CCA2243A6B0100906CFF /* StatusBarButtonImage@2x dark.png in Resources */,
+				5C47CC9E243A5CF100906CFF /* StatusBarButtonImage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C47CC86243A5BA000906CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C47CC90243A5BA000906CFF /* ViewController.swift in Sources */,
+				5C47CC8E243A5BA000906CFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C47CC93243A5BA300906CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C47CC94243A5BA300906CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C47CC98243A5BA300906CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C47CC99243A5BA300906CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5C47CC9B243A5BA300906CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = chotu/chotu.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NGR3DF2L2G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = chotu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alok.chotu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C47CC9C243A5BA300906CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = chotu/chotu.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NGR3DF2L2G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = chotu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alok.chotu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C47CC85243A5BA000906CFF /* Build configuration list for PBXProject "chotu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C47CC98243A5BA300906CFF /* Debug */,
+				5C47CC99243A5BA300906CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C47CC9A243A5BA300906CFF /* Build configuration list for PBXNativeTarget "chotu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C47CC9B243A5BA300906CFF /* Debug */,
+				5C47CC9C243A5BA300906CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C47CC82243A5BA000906CFF /* Project object */;
+}
